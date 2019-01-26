@@ -4,3 +4,4 @@ resources:
   - ../guestbook/namespace.yml
   - ../guestbook/guestbook-ui-deployment.yaml
   - ../guestbook/guestbook-ui-svc.yaml
+  - ../guestbook/ingress.yml
