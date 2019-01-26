@@ -11,7 +11,7 @@ spec:
         name: http
         protocol: HTTP
       hosts:
-        - localhost
+        - test.internal
 ---
 apiVersion: networking.istio.io/v1alpha3
 kind: VirtualService
@@ -19,7 +19,7 @@ metadata:
   name: guestbook
 spec:
   hosts:
-    - localhost
+    - test.internal
   gateways:
     - guestbook
   http:
